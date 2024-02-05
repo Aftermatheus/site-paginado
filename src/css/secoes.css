@@ -1,0 +1,237 @@
+body {
+    background-color: #011a20;
+    color: #fff;
+}
+
+.cabecalho {
+    height: 80px;
+    background-color: #011a20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+}
+
+.cabecalho .logo {
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho .logo .logo-do-site {
+    max-height: 100px;
+}
+
+.cabecalho .logo hr{
+    max-height: 89px;
+}
+
+.cabecalho .logo .logo-escrita {
+    max-height: 100px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalho .menu li a {
+    padding: 25px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Open Sans';
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.btn-funcoes{
+    background-color: rgba(255, 255, 255, .1 );
+    border: 0.5px solid #fff;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    width: 50%;
+    transition: all .3s ease-in;
+    font-weight: bolder;
+}
+
+.btn-plataforma-caes, .btn-plataforma-gatos{
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    border: none;
+    background-color: #000;
+
+}
+.btn-plataforma-caes, .btn-plataforma-gatos img{
+    position: inherit
+}
+
+.btn-funcoes:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.secoes .img-secoes {
+    width: 270px;
+}
+
+.secoes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.secoes .titulo {
+    font-family: 'Open Sans';
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.secoes .cartoes {
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    min-height: 578px;
+}
+
+.secoes .cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    padding: 80px;
+    gap: 40px;
+}
+
+.secoes .cartao .img-secoes {
+    border-radius: 20px;
+    border: 5px;
+    border-style:solid
+}
+
+.secoes .plataformas-caes, .btn-plataformas-gatos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .3s ease-in;
+    display: none;
+    opacity: 0;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .3s ease-in;
+    display: none;
+    opacity: 0;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes.ativo {
+    display: flex;  
+    opacity: 1;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos.ativo {
+    display: flex;  
+    opacity: 1;
+}
+
+.secoes .plataformas-caes, .plataformas-gatos{
+    font-family: 'Open Sans';
+    font-weight: bolder;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes li{
+    border-radius: 20px;
+    height: 30px;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes li p{
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos li{
+    border-radius: 20px;
+    height: 30px;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos li p{
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(1) {
+    border: 1px solid #09202e;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(1):hover {
+    background-color: #09202e
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(2) {
+    border: 1px solid #09202e;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(2):hover {
+    background-color: #09202e;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(3) {
+    border: 1px solid #09202e;
+}
+
+.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(3):hover {
+    background-color: #09202e;
+}
+
+
+.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(1) {
+    border: 1px solid #09202e;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(1):hover {
+    background-color: #09202e;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(2) {
+    border: 1px solid #09202e;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(2):hover {
+    background-color: #09202e;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(3) {
+    border: 1px solid #09202e;
+}
+
+.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(3):hover {
+    background-color: #09202e;
+}
