@@ -1,7 +1,7 @@
 body {
     background-color: #011a20;
     color: #fff;
-	margin: 0 auto;
+    margin: 0 auto;
     width: 80em;
 }
 header{
@@ -13,8 +13,8 @@ header{
     display: block;
     align-items: center;
     border-bottom: 1px solid #282828;
-	margin-bottom: 10px;
-	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .logo-do-site {
@@ -23,7 +23,7 @@ header{
 
 hr{
     height: 75px;
-	justify-content: center;
+    justify-content: center;
 }
 
 .logo-escrita {
@@ -33,9 +33,9 @@ hr{
 .menu {
     display: flex;
     gap: 25px;
-	align-items: center;
-	height: 80px;
-	justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
 }
 
 .menu li a {
