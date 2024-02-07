@@ -3,10 +3,9 @@ body {
     color: #fff;
     margin: 0 auto;
     width: 80em;
+    overflow: hidden;
 }
-header{
 
-}	
 .cabecalho {
     height: 80px;
     background-color: #000000d9;
