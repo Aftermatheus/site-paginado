@@ -1,50 +1,77 @@
 body {
     background-color: #011a20;
     color: #fff;
+	margin: 0 auto;
+    width: 80em;
 }
+main{
+	background-image: url("./src/imagens/capa-site.png");
+	padding-bottom: 40px;
 
+}	
 .cabecalho {
     height: 80px;
-    background-color: #011a20;
-    display: flex;
-    justify-content: space-between;
+    background-color: #000000d9;
+    display: block;
     align-items: center;
-    padding: 0 80px;
     border-bottom: 1px solid #282828;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
-.cabecalho .logo {
-    display: flex;
-    gap: 15px;
-}
-
-.cabecalho .logo .logo-do-site {
+.logo-do-site {
     max-height: 100px;
 }
 
-.cabecalho .logo hr{
-    max-height: 89px;
+hr{
+    height: 75px;
+	justify-content: center;
 }
 
-.cabecalho .logo .logo-escrita {
+.logo-escrita {
     max-height: 100px;
 }
 
-.cabecalho .menu {
+.menu {
     display: flex;
     gap: 25px;
+	align-items: center;
+	height: 80px;
+	justify-content: space-around;
 }
 
-.cabecalho .menu li a {
+.menu li a {
     padding: 25px;
     color: #e8e8e8;
     font-weight: bolder;
     font-size: 15px;
-    font-family: 'Open Sans';
 }
 
-.cabecalho .menu li a:hover {
+.menu li a:hover {
     border-bottom: 2px solid #fff;
+}
+
+.home {
+    display: flex;
+    position: relative;
+	justify-content: center;
+}
+
+.home .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
+    max-width: 780px;
+}
+
+.home .imagem-fundo {
+    width: 100%;
+    object-fit: cover;
 }
 
 .btn-funcoes{
@@ -63,14 +90,14 @@ body {
 
 .btn-plataforma-caes, .btn-plataforma-gatos{
     color: #fff;
-    width: 100%;
+    width: 270px;
     cursor: pointer;
     border-radius: 20px;
     align-items: center;
     text-transform: uppercase;
     transition: all .3s ease-in;
     border: none;
-    background-color: #000;
+    background-color: #00000000;
 
 }
 .btn-plataforma-caes, .btn-plataforma-gatos img{
@@ -82,7 +109,7 @@ body {
     color: #000;
 }
 
-.secoes .img-secoes {
+.img-secoes {
     width: 270px;
 }
 
@@ -94,19 +121,22 @@ body {
     align-items: center;
 }
 
-.secoes .titulo {
+.titulo {
     font-family: 'Open Sans';
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 50px;
+	background-color: #000000c7;
+	text-align: center;
+    padding: 10px;
+    border-radius: 20px;
 }
 
-.secoes .cartoes {
+.cartoes {
     display: flex;
-    background-color: black;
+    background-color: #000000c7;
     border-radius: 20px;
     font-family: 'Open Sans';
-    min-height: 578px;
+	max-height: 80em;
 }
 
 .secoes .cartao {
@@ -119,20 +149,20 @@ body {
     gap: 40px;
 }
 
-.secoes .cartao .img-secoes {
+.cartao .img-secoes {
     border-radius: 20px;
     border: 5px;
     border-style:solid
 }
 
-.secoes .plataformas-caes, .btn-plataformas-gatos {
+.plataformas-caes, .btn-plataformas-gatos {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
     justify-content: center;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes {
+.btn-plataforma-caes .plataformas-caes {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -142,7 +172,7 @@ body {
     opacity: 0;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos {
+.btn-plataforma-gatos .plataformas-gatos {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -152,86 +182,86 @@ body {
     opacity: 0;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes.ativo {
+.btn-plataforma-caes .plataformas-caes.ativo {
     display: flex;  
     opacity: 1;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos.ativo {
+.btn-plataforma-gatos .plataformas-gatos.ativo {
     display: flex;  
     opacity: 1;
 }
 
-.secoes .plataformas-caes, .plataformas-gatos{
+.plataformas-caes, .plataformas-gatos{
     font-family: 'Open Sans';
     font-weight: bolder;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes li{
+.btn-plataforma-caes .plataformas-caes li{
     border-radius: 20px;
     height: 30px;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes li p{
+.btn-plataforma-caes .plataformas-caes li p{
     margin-top: 2px;
     font-size: 18px;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos li{
+.btn-plataforma-gatos .plataformas-gatos li{
     border-radius: 20px;
     height: 30px;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos li p{
+.btn-plataforma-gatos .plataformas-gatos li p{
     margin-top: 2px;
     font-size: 18px;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(1) {
+.btn-plataforma-caes .plataformas-caes li:nth-child(1) {
     border: 1px solid #09202e;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(1):hover {
+.btn-plataforma-caes .plataformas-caes li:nth-child(1):hover {
     background-color: #09202e
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(2) {
+.btn-plataforma-caes .plataformas-caes li:nth-child(2) {
     border: 1px solid #09202e;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(2):hover {
+.btn-plataforma-caes .plataformas-caes li:nth-child(2):hover {
     background-color: #09202e;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(3) {
+.btn-plataforma-caes .plataformas-caes li:nth-child(3) {
     border: 1px solid #09202e;
 }
 
-.secoes .btn-plataforma-caes .plataformas-caes li:nth-child(3):hover {
+.btn-plataforma-caes .plataformas-caes li:nth-child(3):hover {
     background-color: #09202e;
 }
 
 
-.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(1) {
+.btn-plataforma-gatos .plataformas-gatos li:nth-child(1) {
     border: 1px solid #09202e;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(1):hover {
+.btn-plataforma-gatos .plataformas-gatos li:nth-child(1):hover {
     background-color: #09202e;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(2) {
+.btn-plataforma-gatos .plataformas-gatos li:nth-child(2) {
     border: 1px solid #09202e;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(2):hover {
+.btn-plataforma-gatos .plataformas-gatos li:nth-child(2):hover {
     background-color: #09202e;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(3) {
+.btn-plataforma-gatos .plataformas-gatos li:nth-child(3) {
     border: 1px solid #09202e;
 }
 
-.secoes .btn-plataforma-gatos .plataformas-gatos li:nth-child(3):hover {
+.btn-plataforma-gatos .plataformas-gatos li:nth-child(3):hover {
     background-color: #09202e;
 }
