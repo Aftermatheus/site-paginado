@@ -138,6 +138,7 @@ hr{
     border-radius: 20px;
     font-family: 'Open Sans';
     max-height: 80em;
+    gap: 50px;
 }
 
 .secoes .cartao {
