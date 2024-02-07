@@ -1,22 +1,25 @@
 body {
     background-color: #011a20;
     color: #fff;
-	margin: 0 auto;
+    margin: 0 auto;
     width: 80em;
+    overflow: hidden;
 }
-main{
-	background-image: url("./src/imagens/capa-site.png");
-	padding-bottom: 40px;
 
-}	
+main{
+    background-image: url("./src/imagens/capa-site.png");
+    padding-bottom: 40px;
+
+}
+
 .cabecalho {
     height: 80px;
     background-color: #000000d9;
     display: block;
     align-items: center;
     border-bottom: 1px solid #282828;
-	margin-bottom: 10px;
-	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .logo-do-site {
@@ -25,7 +28,7 @@ main{
 
 hr{
     height: 75px;
-	justify-content: center;
+    justify-content: center;
 }
 
 .logo-escrita {
@@ -35,9 +38,9 @@ hr{
 .menu {
     display: flex;
     gap: 25px;
-	align-items: center;
-	height: 80px;
-	justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
 }
 
 .menu li a {
@@ -54,7 +57,7 @@ hr{
 .home {
     display: flex;
     position: relative;
-	justify-content: center;
+    justify-content: center;
 }
 
 .home .informacoes {
@@ -125,8 +128,8 @@ hr{
     font-family: 'Open Sans';
     font-size: 50px;
     font-weight: 700;
-	background-color: #000000c7;
-	text-align: center;
+    background-color: #000000c7;
+    text-align: center;
     padding: 10px;
     border-radius: 20px;
 }
@@ -136,7 +139,7 @@ hr{
     background-color: #000000c7;
     border-radius: 20px;
     font-family: 'Open Sans';
-	max-height: 80em;
+    max-height: 80em;
 }
 
 .secoes .cartao {
@@ -218,7 +221,9 @@ hr{
 }
 
 .btn-plataforma-caes .plataformas-caes li:nth-child(1) {
-    border: 1px solid #09202e;
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;
 }
 
 .btn-plataforma-caes .plataformas-caes li:nth-child(1):hover {
@@ -226,16 +231,18 @@ hr{
 }
 
 .btn-plataforma-caes .plataformas-caes li:nth-child(2) {
-    border: 1px solid #09202e;
-}
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;}
 
 .btn-plataforma-caes .plataformas-caes li:nth-child(2):hover {
     background-color: #09202e;
 }
 
 .btn-plataforma-caes .plataformas-caes li:nth-child(3) {
-    border: 1px solid #09202e;
-}
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;}
 
 .btn-plataforma-caes .plataformas-caes li:nth-child(3):hover {
     background-color: #09202e;
@@ -243,24 +250,27 @@ hr{
 
 
 .btn-plataforma-gatos .plataformas-gatos li:nth-child(1) {
-    border: 1px solid #09202e;
-}
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;}
 
 .btn-plataforma-gatos .plataformas-gatos li:nth-child(1):hover {
     background-color: #09202e;
 }
 
 .btn-plataforma-gatos .plataformas-gatos li:nth-child(2) {
-    border: 1px solid #09202e;
-}
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;}
 
 .btn-plataforma-gatos .plataformas-gatos li:nth-child(2):hover {
     background-color: #09202e;
 }
 
 .btn-plataforma-gatos .plataformas-gatos li:nth-child(3) {
-    border: 1px solid #09202e;
-}
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;}
 
 .btn-plataforma-gatos .plataformas-gatos li:nth-child(3):hover {
     background-color: #09202e;
