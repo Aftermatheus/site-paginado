@@ -76,8 +76,8 @@ hr{
     flex-direction: column;
     justify-content: center;
     gap: 32px;
-    padding: 80px 80px 80px 170px;
-    max-width: 780px;
+    padding: 20px 20px 20px 100px;
+    max-width: 70em;
 }
 
 .home .informacoes img {
