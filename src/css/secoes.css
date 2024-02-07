@@ -47,7 +47,7 @@ hr{
     font-size: 15px;
 }
 
-.menu li a:hover {
+.menu li .botao:hover {
     border-bottom: 2px solid #fff;
 }
 
