@@ -66,9 +66,8 @@ hr{
     min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 20px 20px 20px;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
     max-width: 780px;
 }
 
@@ -136,7 +135,6 @@ hr{
 
 .cartoes {
     display: flex;
-    background-color: #000000c7;
     border-radius: 20px;
     font-family: 'Open Sans';
     max-height: 80em;
