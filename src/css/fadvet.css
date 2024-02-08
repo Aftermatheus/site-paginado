@@ -3,6 +3,7 @@ body {
     color: #fff;
 	margin: 0 auto;
     width: 80em;
+    font-family: 'Open Sans';
 }
 
 .cabecalho {
@@ -63,7 +64,6 @@ main .texto-fad-vet {
     border: 1px solid yellow;
     margin: 16px;
     margin-left: 50px;
-    font-family: 'Open Sans';
 }
 
 
@@ -96,25 +96,22 @@ input {
     border: 1px solid #ddd;
     margin: 15px;
     border-radius: 5px;
-    font-family: 'Open Sans';
 }
 
 #lista-de-resultados {
-    width: 48.5%;
+    width: 623px;
     list-style-type: none;
     margin: 0;
     padding-left: 15px;
     display: flex;
     flex-flow: column;
     position: absolute;
-    top: 148px;
 }
 
 #lista-de-resultados li {
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-family: 'Open Sans';
     font-size: 25px;
     border: 1px solid #ddd;
     background-color: #01161b;
@@ -146,7 +143,6 @@ input {
     margin-right: 15px;
     margin-bottom: 5px;
     border-radius: 5px;
-    font-family: 'Open Sans';
 }
 
 .close-button {

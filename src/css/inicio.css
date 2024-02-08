@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     width: 80em;
     overflow: hidden;
+    font-family: 'Open Sans';
 }
 
 .cabecalho {
@@ -93,12 +94,10 @@ hr{
 }
 
 .home .informacoes .titulo {
-    font-family: 'Open Sans';
     font-size: 40px;
 }
 
 .home .informacoes .texto {
-    font-family: 'Open Sans';
     font-size: 18px;
     line-height: 1.6;
 }
@@ -107,12 +106,16 @@ hr{
     background-color: rgba(255, 255, 255, .1 );
     border: 0.5px solid #fff;
     border-radius: 4px;
-    font-family: 'Open Sans';
     font-size: 25px;
     text-align: center;
     padding: 20px 40px;
-    text-transform: uppercase;
-    width: 50%;
-    transition: all .3s ease-in;
+    width: 25%;
     font-weight: bolder;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+}
+
+.btn-funcoes:hover{
+    background-color: #ffffffce;
+    color: black
 }
